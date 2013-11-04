@@ -14,6 +14,7 @@ map<string, MAINFUNC> func_map;
 
 void initialize_func_map(void) {
     func_map["HELLOWORLD"] = do_HELLOWORLD_main;
+    func_map["MERCY"] = do_MERCY_main;
 }
 
 int main(int argc, const char *argv[]) {
