@@ -1,5 +1,5 @@
 /**
-* COIN
+* COINS
 *
 * @author Chiwan Park
 * @solved 2013. 11. 04
@@ -11,7 +11,7 @@
 
 using namespace std;
 
-namespace COIN {
+namespace COINS {
     const int MaxCoin = 100;
     const int MaxMoney = 5000;
 
@@ -52,7 +52,7 @@ namespace COIN {
 #ifndef DRIVER
 
 int main(int argc, const char *argv[]) {
-    return COIN::do_main(argc, argv);
+    return COINS::do_main(argc, argv);
 }
 
 #endif

@@ -24,7 +24,7 @@ void initialize_func_map(void) {
     func_map["MISPELL"] = MISPELL::do_main;
     func_map["ENDIANS"] = ENDIANS::do_main;
     func_map["MAXSUM"] = MAXSUM::do_main;
-    func_map["COIN"] = COIN::do_main;
+    func_map["COINS"] = COINS::do_main;
     func_map["DIAMONDPATH"] = DIAMONDPATH::do_main;
     func_map["TSP1"] = TSP1::do_main;
 }
