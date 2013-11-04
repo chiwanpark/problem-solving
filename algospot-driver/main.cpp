@@ -26,6 +26,7 @@ void initialize_func_map(void) {
     func_map["MAXSUM"] = MAXSUM::do_main;
     func_map["COIN"] = COIN::do_main;
     func_map["DIAMONDPATH"] = DIAMONDPATH::do_main;
+    func_map["TSP1"] = TSP1::do_main;
 }
 
 int main(int argc, const char *argv[]) {

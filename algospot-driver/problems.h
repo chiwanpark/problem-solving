@@ -14,6 +14,7 @@ namespace ENDIANS { int do_main(const int, const char *[]); }
 namespace MAXSUM { int do_main(const int, const char *[]); }
 namespace COIN { int do_main(const int, const char *[]); }
 namespace DIAMONDPATH { int do_main(const int, const char *[]); }
+namespace TSP1 { int do_main(const int, const char *[]); }
 
 typedef int (*MAINFUNC)(int, const char *[]);
 
