@@ -23,6 +23,7 @@ void initialize_func_map(void) {
     func_map["ENCRYPT"] = do_ENCRYPT_main;
     func_map["MISPELL"] = do_MISPELL_main;
     func_map["ENDIANS"] = do_ENDIANS_main;
+    func_map["MAXSUM"] = do_MAXSUM_main;
 }
 
 int main(int argc, const char *argv[]) {
