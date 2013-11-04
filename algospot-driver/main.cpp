@@ -24,6 +24,7 @@ void initialize_func_map(void) {
     func_map["MISPELL"] = do_MISPELL_main;
     func_map["ENDIANS"] = do_ENDIANS_main;
     func_map["MAXSUM"] = do_MAXSUM_main;
+    func_map["COIN"] = do_COIN_main;
 }
 
 int main(int argc, const char *argv[]) {

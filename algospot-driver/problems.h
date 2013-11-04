@@ -14,5 +14,6 @@ int do_ENCRYPT_main(int, const char *[]);
 int do_MISPELL_main(int, const char *[]);
 int do_ENDIANS_main(int, const char *[]);
 int do_MAXSUM_main(int, const char *[]);
+int do_COIN_main(int, const char *[]);
 
 #endif
