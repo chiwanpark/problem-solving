@@ -11,37 +11,39 @@
 
 using namespace std;
 
-string encrypt(const string &s) {
-    string result = "";
+namespace ENCRYPT {
+    string encrypt(const string &s) {
+        string result = "";
 
-    for (string::const_iterator iter = s.begin(), end = s.end(); iter < end; iter += 2)
-        result += *iter;
-
-    if (s.length() > 1) {
-        for (string::const_iterator iter = s.begin() + 1, end = s.end(); iter < end; iter += 2)
+        for (string::const_iterator iter = s.begin(), end = s.end(); iter < end; iter += 2)
             result += *iter;
+
+        if (s.length() > 1) {
+            for (string::const_iterator iter = s.begin() + 1, end = s.end(); iter < end; iter += 2)
+                result += *iter;
+        }
+
+        return result;
     }
 
-    return result;
-}
+    int do_main(int argc, const char *argv[]) {
+        int T;
 
-int do_ENCRYPT_main(int argc, const char *argv[]) {
-    int T;
+        cin >> T;
+        for (int i = 0; i < T; ++i) {
+            string original;
 
-    cin >> T;
-    for (int i = 0; i < T; ++i) {
-        string original;
-
-        cin >> original;
-        cout << encrypt(original) << endl;
+            cin >> original;
+            cout << encrypt(original) << endl;
+        }
+        return 0;
     }
-    return 0;
 }
 
 #ifndef DRIVER
 
 int main(int argc, const char *argv[]) {
-    return do_ENCRYPT_main(argc, argv);
+    return ENCRYPT::do_ENCRYPT_main(argc, argv);
 }
 
 #endif

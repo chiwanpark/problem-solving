@@ -10,23 +10,25 @@
 
 using namespace std;
 
-int do_HELLOWORLD_main(int argc, const char *argv[]) {
-    int C;
+namespace HELLOWORLD {
+    int do_main(int argc, const char *argv[]) {
+        int C;
 
-    cin >> C;
-    for (int i = 0; i < C; ++i) {
-        string name;
-        cin >> name;
-        cout << "Hello, " << name << "!" << endl;
+        cin >> C;
+        for (int i = 0; i < C; ++i) {
+            string name;
+            cin >> name;
+            cout << "Hello, " << name << "!" << endl;
+        }
+
+        return 0;
     }
-
-    return 0;
 }
 
 #ifndef DRIVER
 
 int main(int argc, const char *argv[]) {
-    return do_HELLOWORLD_main(argc, argv);
+    return HELLOWORLD::do_main(argc, argv);
 }
 
 #endif

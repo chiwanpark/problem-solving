@@ -8,35 +8,37 @@
 */
 #include <cstdio>
 
-int do_MAXSUM_main(int argc, const char *argv[]) {
-    int T, N, input, g, answer;
+namespace MAXSUM {
+    int do_main(int argc, const char *argv[]) {
+        int T, N, input, g, answer;
 
-    scanf("%d", &T);
-    for (int i = 0; i < T; ++i) {
-        scanf("%d", &N);
-        g = 0;
-        answer = 0;
-        for (int j = 0; j < N; ++j) {
-            scanf("%d", &input);
+        scanf("%d", &T);
+        for (int i = 0; i < T; ++i) {
+            scanf("%d", &N);
+            g = 0;
+            answer = 0;
+            for (int j = 0; j < N; ++j) {
+                scanf("%d", &input);
 
-            if (g > 0)
-                g += input;
-            else
-                g = input;
-            if (answer < g)
-                answer = g;
+                if (g > 0)
+                    g += input;
+                else
+                    g = input;
+                if (answer < g)
+                    answer = g;
+            }
+
+            printf("%d\n", answer);
         }
 
-        printf("%d\n", answer);
+        return 0;
     }
-
-    return 0;
 }
 
 #ifndef DRIVER
 
 int main(int argc, const char *argv[]) {
-    return do_MAXSUM_main(argc, argv);
+    return MAXSUM::do_main(argc, argv);
 }
 
 #endif

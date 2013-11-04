@@ -10,32 +10,34 @@
 
 using namespace std;
 
-int do_HOTSUMMER_main(int argc, const char *argv[]) {
-    int T, value, sum, goal;
+namespace HOTSUMMER {
+    int do_main(int argc, const char *argv[]) {
+        int T, value, sum, goal;
 
-    cin >> T;
-    for (int i = 0; i < T; ++i) {
-        cin >> goal;
+        cin >> T;
+        for (int i = 0; i < T; ++i) {
+            cin >> goal;
 
-        sum = 0;
-        for (int j = 0; j < 9; ++ j) {
-            cin >> value;
-            sum += value;
+            sum = 0;
+            for (int j = 0; j < 9; ++j) {
+                cin >> value;
+                sum += value;
+            }
+
+            if (sum > goal)
+                cout << "NO" << endl;
+            else
+                cout << "YES" << endl;
         }
 
-        if (sum > goal)
-            cout << "NO" << endl;
-        else
-            cout << "YES" << endl;
+        return 0;
     }
-
-    return 0;
 }
 
 #ifndef DRIVER
 
 int main(int argc, const char *argv[]) {
-    return do_HOTSUMMER_main(argc, argv);
+    return HOTSUMMER::do_main(argc, argv);
 }
 
 #endif

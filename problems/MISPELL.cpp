@@ -11,23 +11,24 @@
 
 using namespace std;
 
-int do_MISPELL_main(int argc, const char *argv[]) {
-    int N, pos;
-    string input;
+namespace MISPELL {
+    int do_main(int argc, const char *argv[]) {
+        int N, pos;
+        string input;
 
-    cin >> N;
+        cin >> N;
 
-    for (int i = 0; i < N; ++i) {
-        cin >> pos >> input;
-        cout << i + 1 << " " << input.substr(0, pos - 1) << input.substr(pos, input.length() - pos) << endl;
+        for (int i = 0; i < N; ++i) {
+            cin >> pos >> input;
+            cout << i + 1 << " " << input.substr(0, pos - 1) << input.substr(pos, input.length() - pos) << endl;
+        }
+        return 0;
     }
-    return 0;
 }
-
 #ifndef DRIVER
 
 int main(int argc, const char *argv[]) {
-    return do_MISPELL_main(argc, argv);
+    return MISPELL::_main(argc, argv);
 }
 
 #endif
