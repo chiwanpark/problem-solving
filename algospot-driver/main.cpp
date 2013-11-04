@@ -29,6 +29,7 @@ void initialize_func_map(void) {
     func_map["TSP1"] = TSP1::do_main;
     func_map["LIS"] = LIS::do_main;
     func_map["BRAVEDUCK"] = BRAVEDUCK::do_main;
+    func_map["ANAGRAM"] = ANAGRAM::do_main;
 }
 
 int main(int argc, const char *argv[]) {
