@@ -15,6 +15,7 @@ namespace MAXSUM { int do_main(const int, const char *[]); }
 namespace COINS { int do_main(const int, const char *[]); }
 namespace DIAMONDPATH { int do_main(const int, const char *[]); }
 namespace TSP1 { int do_main(const int, const char *[]); }
+namespace LIS { int do_main(const int, const char *[]); }
 
 typedef int (*MAINFUNC)(int, const char *[]);
 
