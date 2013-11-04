@@ -19,6 +19,7 @@ namespace LIS { int do_main(const int, const char *[]); }
 namespace BRAVEDUCK { int do_main(const int, const char *[]); }
 namespace ANAGRAM { int do_main(const int, const char *[]); }
 namespace MEETING { int do_main(const int, const char *[]); }
+namespace STRJOIN { int do_main(const int, const char *[]); }
 
 typedef int (*MAINFUNC)(int, const char *[]);
 
