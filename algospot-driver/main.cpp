@@ -19,6 +19,7 @@ void initialize_func_map(void) {
     func_map["LECTURE"] = do_LECTURE_main;
     func_map["CONVERT"] = do_CONVERT_main;
     func_map["HOTSUMMER"] = do_HOTSUMMER_main;
+    func_map["XHAENEUNG"] = do_XHAENEUNG_main;
 }
 
 int main(int argc, const char *argv[]) {

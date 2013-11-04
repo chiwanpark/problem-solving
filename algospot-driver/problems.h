@@ -9,5 +9,6 @@ int do_DRAWRECT_main(int, const char *[]);
 int do_LECTURE_main(int, const char *[]);
 int do_CONVERT_main(int, const char *[]);
 int do_HOTSUMMER_main(int, const char *[]);
+int do_XHAENEUNG_main(int, const char *[]);
 
 #endif
