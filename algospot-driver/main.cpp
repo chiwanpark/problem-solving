@@ -30,6 +30,7 @@ void initialize_func_map(void) {
     func_map["LIS"] = LIS::do_main;
     func_map["BRAVEDUCK"] = BRAVEDUCK::do_main;
     func_map["ANAGRAM"] = ANAGRAM::do_main;
+    func_map["MEETING"] = MEETING::do_main;
 }
 
 int main(int argc, const char *argv[]) {
