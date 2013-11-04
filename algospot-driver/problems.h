@@ -11,5 +11,6 @@ int do_CONVERT_main(int, const char *[]);
 int do_HOTSUMMER_main(int, const char *[]);
 int do_XHAENEUNG_main(int, const char *[]);
 int do_ENCRYPT_main(int, const char *[]);
+int do_MISPELL_main(int, const char *[]);
 
 #endif

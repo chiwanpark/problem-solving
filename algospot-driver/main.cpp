@@ -21,6 +21,7 @@ void initialize_func_map(void) {
     func_map["HOTSUMMER"] = do_HOTSUMMER_main;
     func_map["XHAENEUNG"] = do_XHAENEUNG_main;
     func_map["ENCRYPT"] = do_ENCRYPT_main;
+    func_map["MISPELL"] = do_MISPELL_main;
 }
 
 int main(int argc, const char *argv[]) {
