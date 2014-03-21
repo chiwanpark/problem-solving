@@ -27,6 +27,7 @@
 		925D5E46052859550134C32A /* BRAVEDUCK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D5AFCC9151036ED74223D /* BRAVEDUCK.cpp */; };
 		925D5EB9590BC4BAFD65C147 /* MERCY.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D554E808B5E307DAC4405 /* MERCY.cpp */; };
 		925D5F6543FDE28C6830CE81 /* LIS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D54435D0D9397B45545F6 /* LIS.cpp */; };
+		925D5FB36D77A059B4233D8F /* GRID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D5BFD38EF98FADC1026BB /* GRID.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,7 @@
 		925D5B22CF37685F3096B542 /* HELLOWORLD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HELLOWORLD.cpp; sourceTree = "<group>"; };
 		925D5BA264F3338403256860 /* HOTSUMMER.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HOTSUMMER.cpp; sourceTree = "<group>"; };
 		925D5BDFDE3A542E40F65391 /* MEETING.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MEETING.cpp; sourceTree = "<group>"; };
+		925D5BFD38EF98FADC1026BB /* GRID.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GRID.cpp; sourceTree = "<group>"; };
 		925D5C57273B96F2DE008321 /* problems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = problems.h; sourceTree = "<group>"; };
 		925D5D93455851B88B438868 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		925D5DD84958E7AA08060419 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				925D57B467002AD6C0C4FDD3 /* ANAGRAM.cpp */,
 				925D5BDFDE3A542E40F65391 /* MEETING.cpp */,
 				925D5E65EFA0614ECB177244 /* STRJOIN.cpp */,
+				925D5BFD38EF98FADC1026BB /* GRID.cpp */,
 			);
 			path = problems;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				925D52B2CD1140E1017098B5 /* ANAGRAM.cpp in Sources */,
 				925D5596697224162E1292D0 /* MEETING.cpp in Sources */,
 				925D57FE8C1E135672CA3280 /* STRJOIN.cpp in Sources */,
+				925D5FB36D77A059B4233D8F /* GRID.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
