@@ -20,6 +20,7 @@
 		925D58525247EFA4909CEB7C /* MISPELL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D534EA45EAE264D819F8C /* MISPELL.cpp */; };
 		925D59A1963B63DCE4C4500F /* CONVERT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D5A53951A2C2131CED654 /* CONVERT.cpp */; };
 		925D5A51B9750AE477821625 /* LECTURE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D50323B785E5C7C98E5A3 /* LECTURE.cpp */; };
+		925D5BAA277A0D7137348D10 /* CHRISTMAS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D57E2E8458F188634BACC /* CHRISTMAS.cpp */; };
 		925D5C232479D1659BB2C94B /* DRAWRECT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D52ABBF89973FFB097A9A /* DRAWRECT.cpp */; };
 		925D5C3E5FC1375ACED453FB /* XHAENEUNG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D52540BF26B356A65296B /* XHAENEUNG.cpp */; };
 		925D5C5C217B90B3EAECB1F3 /* ENCRYPT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D5FB7973DB0DD9C543BC5 /* ENCRYPT.cpp */; };
@@ -54,6 +55,7 @@
 		925D56542EBBA021C34B981F /* COINS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = COINS.cpp; sourceTree = "<group>"; };
 		925D567227505B139E87273F /* MAXSUM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MAXSUM.cpp; sourceTree = "<group>"; };
 		925D57B467002AD6C0C4FDD3 /* ANAGRAM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ANAGRAM.cpp; sourceTree = "<group>"; };
+		925D57E2E8458F188634BACC /* CHRISTMAS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CHRISTMAS.cpp; sourceTree = "<group>"; };
 		925D5935A59EF8C0C7A6D33A /* TSP1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TSP1.cpp; sourceTree = "<group>"; };
 		925D5A53951A2C2131CED654 /* CONVERT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CONVERT.cpp; sourceTree = "<group>"; };
 		925D5AFCC9151036ED74223D /* BRAVEDUCK.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BRAVEDUCK.cpp; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				925D5BDFDE3A542E40F65391 /* MEETING.cpp */,
 				925D5E65EFA0614ECB177244 /* STRJOIN.cpp */,
 				925D5BFD38EF98FADC1026BB /* GRID.cpp */,
+				925D57E2E8458F188634BACC /* CHRISTMAS.cpp */,
 			);
 			path = problems;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				925D5596697224162E1292D0 /* MEETING.cpp in Sources */,
 				925D57FE8C1E135672CA3280 /* STRJOIN.cpp in Sources */,
 				925D5FB36D77A059B4233D8F /* GRID.cpp in Sources */,
+				925D5BAA277A0D7137348D10 /* CHRISTMAS.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

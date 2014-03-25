@@ -33,6 +33,7 @@ void initialize_func_map(void) {
     func_map["MEETING"] = MEETING::do_main;
     func_map["STRJOIN"] = STRJOIN::do_main;
     func_map["GRID"] = GRID::do_main;
+    func_map["CHRISTMAS"] = CHRISTMAS::do_main;
 }
 
 int main(int argc, const char *argv[]) {
