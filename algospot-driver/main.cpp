@@ -35,6 +35,7 @@ void initialize_func_map(void) {
     func_map["GRID"] = GRID::do_main;
     func_map["CHRISTMAS"] = CHRISTMAS::do_main;
     func_map["PICNIC"] = PICNIC::do_main;
+    func_map["JOSEPHUS"] = JOSEPHUS::do_main;
 }
 
 int main(int argc, const char *argv[]) {

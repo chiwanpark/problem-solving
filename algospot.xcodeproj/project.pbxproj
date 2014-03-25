@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		925D50A66421A8DB7B21B790 /* JOSEPHUS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D50ACC44750FB55E622D5 /* JOSEPHUS.cpp */; };
 		925D51CF70579439A950236E /* COINS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D56542EBBA021C34B981F /* COINS.cpp */; };
 		925D5295AEB0BF77B62BB55C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D5D93455851B88B438868 /* main.cpp */; };
 		925D52B2CD1140E1017098B5 /* ANAGRAM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925D57B467002AD6C0C4FDD3 /* ANAGRAM.cpp */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		925D502254E5C10D602BC40E /* ENDIANS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ENDIANS.cpp; sourceTree = "<group>"; };
 		925D50323B785E5C7C98E5A3 /* LECTURE.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LECTURE.cpp; sourceTree = "<group>"; };
+		925D50ACC44750FB55E622D5 /* JOSEPHUS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JOSEPHUS.cpp; sourceTree = "<group>"; };
 		925D52540BF26B356A65296B /* XHAENEUNG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XHAENEUNG.cpp; sourceTree = "<group>"; };
 		925D52ABBF89973FFB097A9A /* DRAWRECT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DRAWRECT.cpp; sourceTree = "<group>"; };
 		925D534EA45EAE264D819F8C /* MISPELL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MISPELL.cpp; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				925D5BFD38EF98FADC1026BB /* GRID.cpp */,
 				925D57E2E8458F188634BACC /* CHRISTMAS.cpp */,
 				925D5B48D3C6E0169042DD86 /* PICNIC.cpp */,
+				925D50ACC44750FB55E622D5 /* JOSEPHUS.cpp */,
 			);
 			path = problems;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				925D5FB36D77A059B4233D8F /* GRID.cpp in Sources */,
 				925D5BAA277A0D7137348D10 /* CHRISTMAS.cpp in Sources */,
 				925D5F0DAC3168A2516A0E03 /* PICNIC.cpp in Sources */,
+				925D50A66421A8DB7B21B790 /* JOSEPHUS.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
