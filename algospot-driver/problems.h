@@ -24,6 +24,7 @@ namespace GRID { int do_main(const int, const char *[]); }
 namespace CHRISTMAS { int do_main(const int, const char *[]); }
 namespace PICNIC { int do_main(const int, const char *[]); }
 namespace JOSEPHUS { int do_main(const int, const char *[]); }
+namespace BOGGLE { int do_main(const int, const char *[]); }
 
 typedef int (*MAINFUNC)(int, const char *[]);
 
