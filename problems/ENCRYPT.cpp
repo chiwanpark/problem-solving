@@ -43,7 +43,7 @@ namespace ENCRYPT {
 #ifndef DRIVER
 
 int main(int argc, const char *argv[]) {
-    return ENCRYPT::do_ENCRYPT_main(argc, argv);
+    return ENCRYPT::do_main(argc, argv);
 }
 
 #endif

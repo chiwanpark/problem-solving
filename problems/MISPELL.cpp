@@ -28,7 +28,7 @@ namespace MISPELL {
 #ifndef DRIVER
 
 int main(int argc, const char *argv[]) {
-    return MISPELL::_main(argc, argv);
+    return MISPELL::do_main(argc, argv);
 }
 
 #endif
