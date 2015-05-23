@@ -39,6 +39,7 @@ void initialize_func_map(void) {
     func_map["BOGGLE"] = BOGGLE::do_main;
     func_map["BRACKETS2"] = BRACKETS2::do_main;
     func_map["ZEROONE"] = ZEROONE::do_main;
+    func_map["CSBASEBALL"] = CSBASEBALL::do_main;
 }
 
 int main(int argc, const char *argv[]) {
