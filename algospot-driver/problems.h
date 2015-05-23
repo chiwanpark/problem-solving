@@ -25,6 +25,7 @@ namespace CHRISTMAS { int do_main(int, const char *[]); }
 namespace PICNIC { int do_main(int, const char *[]); }
 namespace JOSEPHUS { int do_main(int, const char *[]); }
 namespace BOGGLE { int do_main(int, const char *[]); }
+namespace BRACKETS2 { int do_main(int, const char *[]); }
 
 typedef int (*MAINFUNC)(int, const char *[]);
 
