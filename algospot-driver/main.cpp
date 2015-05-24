@@ -43,6 +43,7 @@ void initialize_func_map(void) {
     func_map["NQUEEN"] = NQUEEN::do_main;
     func_map["BRACKETS"] = BRACKETS::do_main;
     func_map["FIX"] = FIX::do_main;
+    func_map["YULO"] = YULO::do_main;
 }
 
 int main(int argc, const char *argv[]) {
