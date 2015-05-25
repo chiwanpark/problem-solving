@@ -46,6 +46,7 @@ void initialize_func_map(void) {
     func_map["YULO"] = YULO::do_main;
     func_map["JUMPGAME"] = JUMPGAME::do_main;
     func_map["TRIANGLEPATH"] = TRIANGLEPATH::do_main;
+    func_map["CLOCKSYNC"] = CLOCKSYNC::do_main;
 }
 
 int main(int argc, const char *argv[]) {

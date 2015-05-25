@@ -34,6 +34,7 @@ namespace FIX { int do_main(int, const char *[]); }
 namespace YULO { int do_main(int, const char *[]); }
 namespace JUMPGAME { int do_main(int, const char *[]); }
 namespace TRIANGLEPATH { int do_main(int, const char *[]); }
+namespace CLOCKSYNC { int do_main(int, const char *[]); }
 
 typedef int (*MAINFUNC)(int, const char *[]);
 
