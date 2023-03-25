@@ -29,6 +29,7 @@ void initialize_func_map(void) {
   func_map["1697"] = BOJ_1697::do_main;
   func_map["1008"] = BOJ_1008::do_main;
   func_map["11382"] = BOJ_11382::do_main;
+  func_map["1011"] = BOJ_1011::do_main;
 }
 
 int main(int argc, const char *argv[]) {
