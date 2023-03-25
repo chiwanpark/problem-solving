@@ -7,9 +7,8 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 file(
     GLOB_RECURSE
     ALGOSPOT_SRC_FILES
-    ${PROJECT_SOURCE_DIR}/problems/*.cpp
-    ${PROJECT_SOURCE_DIR}/algospot-driver/*.cpp
-    ${PROJECT_SOURCE_DIR}/algospot-driver/*.h
+    ${PROJECT_SOURCE_DIR}/algospot/*.cpp
+    ${PROJECT_SOURCE_DIR}/algospot/*.h
 )
 file(
     GLOB_RECURSE
