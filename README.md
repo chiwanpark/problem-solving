@@ -4,7 +4,7 @@
 아래 플랫폼의 코드가 올라와 있습니다.
 
 - [Algospot (chiwanpark)](https://algospot.com/user/profile/4747)
-- [Backjoon Online Judge (chiwanpark)](https://www.acmicpc.net/user/chiwanpark), ([solved.ac](https://solved.ac/profile/chiwanpark))
+- [Backjoon Online Judge (chiwanpark)](https://www.acmicpc.net/user/chiwanpark), [solved.ac (chiwanpark)](https://solved.ac/profile/chiwanpark)
 
 ## 빌드
 
