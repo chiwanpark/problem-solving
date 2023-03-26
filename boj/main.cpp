@@ -5,6 +5,7 @@
  * @created 2023. 03. 25
  */
 #include <iostream>
+#include <limits>
 #include <map>
 
 #include "problems.h"
@@ -30,6 +31,7 @@ void initialize_func_map(void) {
   func_map["1008"] = BOJ_1008::do_main;
   func_map["11382"] = BOJ_11382::do_main;
   func_map["1011"] = BOJ_1011::do_main;
+  func_map["1152"] = BOJ_1152::do_main;
 }
 
 int main(int argc, const char *argv[]) {
@@ -37,6 +39,7 @@ int main(int argc, const char *argv[]) {
 
   initialize_func_map();
   cin >> problem;
+  cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
   if (func_map.find(problem) != func_map.end()) {
     return (*(func_map[problem]))(argc, argv);
