@@ -118,6 +118,9 @@ int do_main(int, const char *[]);
 namespace BOJ_12015 {
 int do_main(int, const char *[]);
 }
+namespace BOJ_14003 {
+int do_main(int, const char *[]);
+}
 
 typedef int (*MAINFUNC)(int, const char *[]);
 
