@@ -6,14 +6,13 @@
  *
  * https://www.acmicpc.net/problem/4153
  */
+#include <algorithm>
 #include <iostream>
 #include <vector>
-#include <algorithm>
 
 using namespace std;
 
 namespace BOJ_4153 {
-
 
 int do_main(int argc, const char *argv[]) {
   int a, b, c;
